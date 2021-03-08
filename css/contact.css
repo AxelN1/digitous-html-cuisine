@@ -13,20 +13,12 @@ header .text-center {
     color: white;
     font-family: "Courgette", cursive;
 }
-
-section h1{
-    color: black;
-}
-    
 .bg-light {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
-
 .navbar-light .navbar-brand {
     color: white;
 }
-
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -49,30 +41,18 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color: white;
 }
 
-main, h2, .text-center {
-    color: #000;
+aside {
+    /* padding-left: 95%; */
+    /* margin-top: 10px; */
 }
-
-.section-articles > h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-}
-
-.section-articles a {
-    color: #000;
-    text-decoration: none;
-}
-
-.section-articles img {
-    width: 100%;
-}
-
 aside h6 {
     color: black;
 }
-
 aside button {
     width: 100%;
+}
+aside i.bi, footer i.bi {
+    padding: 5px;
 }
 
 footer a {
@@ -83,21 +63,10 @@ footer ul {
     list-style-type: none;
     padding-left: 0;
 }
-
-aside i.bi, footer i.bi {
-    padding: 5px;
+main, h2{
+    color: #000;
 }
 
-@media (min-width: 768px) {
-    .col-md-8 {
-        flex: 0 0 auto;
-        width: 66.6666666667%;
-        margin-top: 100px;
-    }
-}
-@media (min-width: 992px){
-    .d-lg-block {
-        display: block !important;
-        margin-top: 100px;
-    }
+.adresse {
+    margin: 0 65px;
 }
